@@ -20,7 +20,8 @@ This lab walks through how I set up Active Directory in Microsoft Azure. It serv
 <h2>Setup Instructions</h2>
 
 <p>
-<img src="https://i.imgur.com/fBRzEZ3.png" height="80%" width="80%" alt="Installation Steps"/>
+<img width="3494" height="1628" alt="image" src="https://github.com/user-attachments/assets/2f8934d4-5606-4317-aabb-cb07b0024d1c" />
+
 </p>
 <p>
 Before using the VMs, it is important to set the domain controller VM's IP address as static. By default, the VMs will not be able to communicate with each other if both have dynamic IPs despite being on the same vnet. If we do not make the necessary change, the client will not be able to join the domain that will be created later. On the Azure portal, click on the Networking tab on the domain controller VM. Click on the Network Interface and open the IP configurations tab. Toggle the Assignment switch to be Static and save your changes. We are making sure the domain controller has a static IP and it will be used as a reference when we make configurations.
