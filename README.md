@@ -5,7 +5,7 @@
 <h1>Setting up Active Directory in Azure</h1>
 This lab walks through how I set up Active Directory in Microsoft Azure. It serves as the baseline for future labs. I’ll be working with two virtual machines on the same virtual network (vNet). In this lab, the focus is on one VM, which will host and be configured as the domain controller. The second VM will act as a client machine and will be joined to the domain in a later lab. <br />
 
-<h2>Environments and Technologies Used</h2>
+<h2>Platforms and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
