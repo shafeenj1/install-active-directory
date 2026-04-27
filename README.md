@@ -43,7 +43,11 @@ After assigning the static IP, the next step is to log into the client VM and ch
 <img src="https://i.imgur.com/ktSoNmA.png" height="80%" width="80%" alt="Installation Steps"/>
 </p>
 <p>
-It is now time to install Active Directory on the domain controller VM. With Server Manager open, click on Add Roles and Features and click Next. Confirm the private IP address of the domain controller VM. In the Server Roles tab, click on Active Directory Domain Services. Click Add Features, click Next, then Install. Next we have to promote the server into a domain controller. In Server Manager, there is a warning sign in the top right corner under a flag. Click on that flag and click Promote this server to a domain controller. Click on Add a new forest and specify a domain name. In my case, I will use ernestotest.com. Specify a password for the domain and click on Next on each screen and Install.
+
+  
+Now it’s time to set up Active Directory on the domain controller VM. Open Server Manager, select Add Roles and Features, and proceed through the initial prompts by clicking Next. Make sure the VM’s private IP address is correct.
+When you reach the Server Roles section, choose Active Directory Domain Services, then click Add Features, followed by Next, and finally Install.
+After the installation finishes, you’ll need to promote the server to a domain controller. In Server Manager, look for the notification flag with a warning icon in the top-right corner. Click it and select Promote this server to a domain controller. Choose Add a new forest, enter your desired domain name (for example, ernestotest.com), and set a Directory Services Restore Mode (DSRM) password. Continue clicking Next through the remaining steps, then click Install to complete the process.
 </p>
 <br />
 
