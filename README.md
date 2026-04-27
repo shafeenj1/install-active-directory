@@ -36,8 +36,7 @@ Before working with the virtual machines, you need to assign a static IP address
 
 </p>
 <p>
-After setting the static IP, it is time to log in to the client VM and see if there is connectivity to the domain controller. Using ping -t (domain controller private ip address), will show that the connection is being timed out. On the domain controller VM, we need to enable ICMPv4 on the local Windows Firewall. Within the search bar, type wf.msc to open Windows Defender Firewall. Click on Inbound Rules and enable the Core Networking Diagnostics - ICMP Echo Request rules. Returning to the client VM will show that the ping is now resolving without errors.
-</p>
+After assigning the static IP, the next step is to log into the client VM and check connectivity to the domain controller. If you run ping -t using the domain controller’s private IP address, you’ll notice the requests are timing out. To fix this, go to the domain controller VM and allow ICMPv4 traffic through the Windows Firewall. Open the search bar, type wf.msc, and launch Windows Defender Firewall. From there, navigate to Inbound Rules and enable the rules labeled Core Networking Diagnostics - ICMP Echo Request. Once that’s done, go back to the client VM and run the ping command again, you should now see successful responses instead of timeouts.</p>
 <br />
 
 <p>
