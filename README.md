@@ -7,16 +7,17 @@ This lab walks through how I set up Active Directory in Microsoft Azure. It serv
 
 <h2>Platforms and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure
+- Active Directory
 - Remote Desktop
-- Active Directory Domain Services
+
 
 <h2>Operating Systems Used </h2>
 
 - Windows Server 2022
-- Windows 10 Pro (21H2)
+- Windows 10 Pro 
 
-<h2>Installation Steps</h2>
+<h2>Setup Instructions</h2>
 
 <p>
 <img src="https://i.imgur.com/fBRzEZ3.png" height="80%" width="80%" alt="Installation Steps"/>
