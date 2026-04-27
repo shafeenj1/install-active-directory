@@ -30,7 +30,8 @@ Before working with the virtual machines, you need to assign a static IP address
 
 <p>
 <img width="1544" height="765" alt="image" src="https://github.com/user-attachments/assets/9824b09b-ac29-48aa-8b41-34385e8092be" />
-<img src="https://i.imgur.com/hlDtnbY.png" height="80%" width="80%" alt="Installation Steps"/>
+<img width="3492" height="1784" alt="image" src="https://github.com/user-attachments/assets/fd281f30-de72-41af-94cb-1fd4c595d567" />
+
 <img src="https://i.imgur.com/IbIJWiC.png" height="80%" width="80%" alt="Installation Steps"/>
 </p>
 <p>
