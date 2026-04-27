@@ -51,6 +51,6 @@ After the installation finishes, you’ll need to promote the server to a domain
 </p>
 <br />
 
-<h2>An Important Note </h2>
+<h2>A Key Point </h2>
 
-When logging back in to the domain controller VM through Remote Desktop Connection, it is important to log in with the context of the domain. Type out the domain path and then the name of the user. For example: mydomain.com\labuser. In my case, it is ernestotest.com\labuser. Now that Active Directory is installed, configurations can be implemented in future labs and the client VM will be able to join the domain that was created.
+When reconnecting to the domain controller VM using Remote Desktop, make sure you sign in using the domain account format. Enter the domain followed by the username, like: mydomain.com\labuser. In this case, it would be ernestotest.com\labuser. With Active Directory now set up, you’ll be able to apply configurations in upcoming labs, and the client VM can be joined to the newly created domain.
