@@ -29,7 +29,7 @@ Before working with the virtual machines, you need to assign a static IP address
 <br />
 
 <p>
-<img src="https://i.imgur.com/hE1XNtg.png" height="80%" width="80%" alt="Installation Steps"/>
+<img width="1544" height="765" alt="image" src="https://github.com/user-attachments/assets/9824b09b-ac29-48aa-8b41-34385e8092be" />
 <img src="https://i.imgur.com/hlDtnbY.png" height="80%" width="80%" alt="Installation Steps"/>
 <img src="https://i.imgur.com/IbIJWiC.png" height="80%" width="80%" alt="Installation Steps"/>
 </p>
