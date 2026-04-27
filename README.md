@@ -40,7 +40,8 @@ After assigning the static IP, the next step is to log into the client VM and ch
 <br />
 
 <p>
-<img src="https://i.imgur.com/ktSoNmA.png" height="80%" width="80%" alt="Installation Steps"/>
+<img width="1707" height="921" alt="image" src="https://github.com/user-attachments/assets/428fd065-cc4d-48c0-b76c-527ac27585bb" />
+
 </p>
 <p>
 
